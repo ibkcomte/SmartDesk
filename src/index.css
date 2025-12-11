@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+@import "tailwindcss";
+
+/* globals.css or index.css */
+
+/* Define the custom class to handle the outline and 3D shadow */
+.custom-text-effect {
+    /* Text Outline/Stroke */
+    -webkit-text-stroke: 1.5px #6c757d;
+    text-stroke: 1.5px #6c757d;
+    
+    /* 3D Drop Shadow */
+    text-shadow: 2px 2px 0 #6c757d; 
+}
+
+/* Optional: Make sure the Poppins font is imported */
