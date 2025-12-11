@@ -1,6 +1,7 @@
 import React from "react";
 import passport from "../assets/passport.png";
 const PageOne = () => {
+  
   return (
     <div className="flex flex-cols-6 mt-6 flex-wrap">
       <h3 className="font-extrabold text-6xl p-18 ">
